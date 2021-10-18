@@ -94,12 +94,12 @@ h3 {
   margin-right: 93px;
 }
 
-.header-list {
+.nav-list {
   display: flex;
   flex-direction: row;
 }
 
-.header-list__link {
+.nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -111,8 +111,8 @@ h3 {
   color: var(--accent-color);
 }
 
-.header-list__link:hover,
-.header-list__link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-color);
 }
 
@@ -120,22 +120,22 @@ h3 {
   margin-left: auto;
 }
 
-.header-contacts__mail {
+.contacts-mail {
   margin-right: 50px;
 }
 
-.header-contacts__mail,
-.header-contacts__number {
+.contacts-mail,
+.contacts-number {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
   color: var(--secondary-text-color);
 }
 
-.header-contacts__mail:hover,
-.header-contacts__number:hover,
-.header-contacts__mail:focus,
-.header-contacts__number:focus {
+.contacts-mail:hover,
+.contacts-number:hover,
+.contacts-mail:focus,
+.contacts-number:focus {
   color: var(--accent-color);
 }
 
@@ -150,7 +150,7 @@ h3 {
   background-color: var(--background-dark-color);
 }
 
-.get-order {
+.get-btn {
   cursor: pointer;
   padding: 10px 32px;
   height: 50px;
@@ -175,14 +175,14 @@ h3 {
   margin-bottom: 94px;
 }
 
-.about-list__item {
+.about-item {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
-.about-list__item + .about-list__item {
+.about-item + .about-item {
   margin-left: 30px;
 }
 
@@ -204,7 +204,7 @@ h3 {
   margin-top: 50px;
 }
 
-.team-list__item {
+.team-item {
   background: var(--main-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -212,7 +212,7 @@ h3 {
   text-align: center;
 }
 
-.team-list__item p {
+.team-item-title {
   font-size: 16px;
   line-height: 1.19;
   color: var(--secondary-text-color);
@@ -288,7 +288,7 @@ h3 {
   justify-content: center;
 }
 
-.footer__logo-studio {
+.footer-logo-studio {
   font-family: 'Raleway';
   font-weight: bold;
   font-size: 26px;
@@ -304,7 +304,7 @@ h3 {
   margin-top: 20px;
 }
 
-.footer__mail {
+.footer-mail {
   font-size: 14px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
@@ -312,15 +312,15 @@ h3 {
   margin-bottom: 9px;
 }
 
-.footer__number {
+.footer-number {
   font-size: 14px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer__mail:focus,
-.footer__number:focus,
-.footer__mail:hover,
-.footer__number:hover {
+.footer-mail:focus,
+.footer-number:focus,
+.footer-mail:hover,
+.footer-number:hover {
   color: var(--accent-color);
 }
