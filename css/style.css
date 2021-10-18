@@ -220,7 +220,7 @@ h3 {
 
 /* Main-block Portfolio-Page */
 
-.main__filter-btns {
+.filter-btns {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -251,18 +251,18 @@ h3 {
   color: var(--main-white-color);
 }
 
-.main__works-list {
+.works-list {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
 }
 
-.works-list__item {
+.works-list-item {
   border: 1px solid #eeeeee;
   margin-bottom: 30px;
 }
 
-.works-list__item > h3 {
+.works-list-item > .item-title {
   margin-left: 24px;
   text-transform: none;
   font-weight: bold;
@@ -271,7 +271,7 @@ h3 {
   color: var(--main-text-color);
 }
 
-.works-list__item > p {
+.works-list-item > .works-item-text {
   font-size: 16px;
   line-height: 1.9;
   color: var(--secondary-text-color);
