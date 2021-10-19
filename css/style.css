@@ -183,6 +183,13 @@ h3 {
   text-transform: uppercase;
 }
 
+.about-item-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
 .about-item + .about-item {
   margin-left: 30px;
 }
