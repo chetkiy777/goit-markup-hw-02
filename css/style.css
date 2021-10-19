@@ -47,10 +47,10 @@ h2 {
 }
 
 h3 {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.15;
-  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
   color: var(--main-text-color);
 }
 
@@ -180,6 +180,7 @@ h3 {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  text-transform: uppercase;
 }
 
 .about-item + .about-item {
@@ -218,9 +219,17 @@ h3 {
   color: var(--secondary-text-color);
 }
 
+.team-item-text {
+  font-size: 16px;
+  line-height: 1.19x;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
 /* Main-block Portfolio-Page */
 
 .filter-btns {
+  font-family: 'Roboto';
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -230,16 +239,18 @@ h3 {
 .filter-btn {
   cursor: pointer;
   margin-right: 8px;
-  border: none;
-  outline: none;
-  background: var(--background-light-color);
-  border-radius: 4px;
+  padding: 6px 25px 6px 24px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
   color: var(--main-text-color);
-  padding: 6px 25px 6px 24px;
+
+  background: var(--background-light-color);
+  border-radius: 4px;
+  border: none;
+  outline: none;
 }
 
 .filter-btn:focus,
